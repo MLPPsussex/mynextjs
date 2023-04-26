@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5402157648793030"
+     crossorigin="anonymous"></script>
+ </head>
+ <font size="+2">BASIC VERCEL APP</font>
+ <br>
+ <font size="+3">Hello World</font>
+ <br>
+ <h> This is an app with a test API call </h>
+ <br>
+ <br>
+ <p> Welcome to the test site </p>
+ <body>
+  <script>
+ 
+  function myPost(){
+   var postData = async () => {
+     const response = await fetch("../pages/api/myapi" )
+     .then(response => response.json())
+     .then(alert(response.message))
+    }
+   }
+  alert("starting api request")
+  myPost();
+  
+  setTimeout(ending,5000)
+  function ending(){
+   alert("finished")
+  }
+  
+
+  </script>
+ </body>
+</html>
