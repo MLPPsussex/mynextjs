@@ -108,7 +108,6 @@ export default function Home() {
             </p>
           </a>
         </div>
-        alert("this is a test")
       </main>
     </>
   )
